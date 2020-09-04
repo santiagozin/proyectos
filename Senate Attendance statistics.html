@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+<body>
+   
+   <header>            
+         <h1 class="text-right lead">info@tfif.net</h1>   
+        </header>
+        
+      
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+         
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+                </li>
+               </ul>
+                 
+                  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+      Congress
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="senate_house-party-loyalty-starter-page.html">Senate</a>
+      <a class="dropdown-item" href="house-party-loyalty-starter-page.html">House</a>
+      </div>
+  </div>    
+                   <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+      attendance
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="Senate Attendance statistics.html">Senate</a>
+      <a class="dropdown-item" href="house Attendance statistics.html">House</a>
+      </div>
+  </div>           
+           
+               </div>    
+        </nav>               
+
+
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col-md-4">
+           
+        <h2>Attendance</h2>
+        <p>The Constitution specifies that a majority of members constitutes a quorum to do business in each house.
+            Representatives and senators rarely force the presence of a quorum by demanding quorum calls; thus, in most
+            cases, debates continue even if
+            a majority is not present.</p>
+
+        <p>The Senate uses roll-call votes; a clerk calls out the names of all the senators, each senator stating "aye"
+            or "no" when his or her name is announced. The House reserves roll-call votes for the most formal matters,
+            as a roll-call of all 435 representatives
+            takes quite some time; normally, members vote by electronic device. In the case of a tie, the motion in
+            question fails. In the Senate, the Vice President may (if present) cast the tiebreaking vote.</p>
+
+        <h2>Senate at a glance</h2>
+            </div>
+            <div class="col-md-8">
+            
+             <table class="table table-bordered">
+       
+            <thead>
+                <tr>
+                    <th scope="col">Party</th>
+                    <th scope="col">Number of Reps</th>
+                    <th scope="col">% Voted with Prty</th>
+                </tr>
+            </thead>
+            <tbody id="partidos">
+            </tbody>
+        </table>
+            </div>
+        </div>
+        
+          <div class="row">
+           <div class="col-md-6">
+
+        <h2>Least Engaged (Bottom 10% Attendance)</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Number of Missed Votes</th>
+                    <th>% Missed</th>
+                </tr>
+            </thead>
+            <tbody id="partidosmenores">
+                
+            </tbody>
+        </table>
+              </div>
+              
+               <div class="col-md-6">
+
+        <h2>Most Engaged (Top 10% Attendance)</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Number of Missed Votes</th>
+                    <th scope="col">% Missed</th>
+                </tr>
+            </thead>
+            <tbody id="partidosmayores">
+               
+            </tbody>
+        </table>
+
+    </div>
+        </div>
+    <script src="pro-congress-113-senate.js"></script>
+    <script src="estadisticas.js"></script>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+    </div>
+
+
+</body>
+
+</html>
